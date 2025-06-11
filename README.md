@@ -15,4 +15,4 @@ height of 7 inches and a width of 5 inches.
 Note: Ignore leap year.
 
 7.	Write a C program that accepts two items' weight and number of purchases
-(floating point values) and calculates their average value.
+(floating point values) and calculates their average value.# SP_Lab_report_1
