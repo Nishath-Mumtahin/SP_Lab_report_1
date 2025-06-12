@@ -3,16 +3,12 @@
 #include <stdio.h>
 int main()
 {
-    int totalDays, years, weeks, days;
+    int a, year, weeks, days;
     printf("Number of days: ");
-    scanf("%d", &totalDays);
-    printf("Years: ");
-    scanf("%d", &years);
-    printf("Weeks: ");
-    scanf("%d", &weeks);
-    printf("Days: ");
-    scanf("%d", &days);
-
-
+    scanf("%d", &a);
+    year = a / 365;
+    weeks = (a - (year * 365)) / 7;
+    days = (a - ((year * 365) + (weeks * 7)));
+    printf("Years: %d\nWeeks: %d\nDays: %d\n", year, weeks, days);
     return 0;
 }
